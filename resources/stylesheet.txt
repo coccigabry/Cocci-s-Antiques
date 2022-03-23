@@ -1,0 +1,4 @@
+background + color
+#e2ae77 + #131313 (h) / #353535 (p) / #9e7345 (sign?)
+#edc795 / #d9a767 (btn) + #fff
+rgba(20, 11, 10, 0.93) 100% + #e2ae77

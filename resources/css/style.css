@@ -1,0 +1,302 @@
+html {
+  font-family: Raleway, "Open Sans", Sans-serif;
+  font-size: 16px;
+  background-color: rgba(20, 11, 10, 0.93);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Raleway;
+  font-weight: 300;
+}
+
+p {
+  font-family: "Open Sans";
+}
+
+/*--- Header ---*/
+
+header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  background-color: rgba(13, 17, 37, .9);
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.logo {
+  height: 60px;
+  padding-left: 40px;
+}
+
+.navbar {
+  margin-left: auto;
+  padding-right: 24px;
+}
+
+nav li {
+  display: inline-flex;
+}
+
+nav a {
+  padding: 10px 50px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+nav a:hover {
+  background-color: #e2ae77;
+  color: black;
+  text-decoration: underline;
+}
+
+/*--- Main ---*/
+/*Banner*/
+.banner {
+  position: relative;
+  top: -8px;
+  left: -8px;
+  background-image: url("/resources/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+}
+
+.container-banner {
+  position: relative;
+  top: 150px;
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-pic {
+  width: 33%;
+  height: 200px;
+  margin-top: 30px;
+  background-color: rgba(20, 11, 10, 0.93);
+}
+
+.banner-pic img {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.frame {
+  width: 66%;
+  background-color: #e2ae77;
+  padding: 20px 150px 20px 90px;
+}
+
+.frame h2 {
+  font-size: 2.5rem;
+  color: #131313;
+  margin: 32px 0 21px 0;
+}
+
+.frame p {
+  color: #353535 ;
+}
+
+.sign {
+  font-family: "Edwardian Script";
+  font-style: italic;
+  color: #9e7345;
+}
+
+/*About*/
+.about {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: absolute;
+  top: 80px;
+  width: 900px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #e2ae77;
+  width: 80px;
+  height: 40px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title h2 {
+  font-size: 1.95rem;
+  color: #fff;
+}
+
+.about-pic {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  background-color: transparent;
+}
+
+.about-pic img {
+  width: 400px;
+}
+
+.content {
+  margin-top: 50px;
+  padding: 0 150px;
+}
+
+.content p {
+  color: lightgrey;
+}
+
+/*Antiques*/
+.antiques {
+  position: relative;
+  left: -8px;
+  background-image: url("/resources/background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1050px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.container-antiques {
+  position: absolute;
+  top: 80px;
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.btn-antiques {
+  background-color: rgba(20, 11, 10, 0.93);
+  width: 100px;
+  color: #e2ae77;
+}
+
+.title-antiques h2 {
+  color: black;
+  background-color: #e2ae77;
+  margin: 0 180px;
+  padding: 40px 100px
+}
+
+.row-items {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.row-card {
+  background-color: rgba(20, 11, 10, 0.93);
+  width: 250px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+}
+
+.row-card a {
+  text-decoration: none;
+}
+
+.row-card img {
+  width: 200px;
+  height: 150px;
+  padding: 10px;
+}
+
+.row-card p {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  color: lightgrey;
+}
+
+/*Contact*/
+.contact {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-contact {
+  margin-bottom: 80px;
+}
+
+.container-contact {
+  display: flex;
+  margin: auto;
+}
+
+.contact-pic {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-pic img{
+  width: 200px;
+}
+
+.info {
+  width: 50%;
+  margin-left: 30px;
+  color: white;
+}
+
+.info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.info p {
+  font-size: .85rem;
+  margin-bottom: 5px;
+}
+
+/*--- Footer ---*/
+footer {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-span {
+  padding-left: 40px;
+  color: white;
+}
