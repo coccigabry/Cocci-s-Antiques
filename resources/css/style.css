@@ -67,7 +67,7 @@ nav a:hover {
   position: relative;
   top: -8px;
   left: -8px;
-  background-image: url("/resources/background.jpg");
+  background-image: url("../background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -180,7 +180,7 @@ nav a:hover {
 .antiques {
   position: relative;
   left: -8px;
-  background-image: url("/resources/background2.jpg");
+  background-image: url("../background2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
